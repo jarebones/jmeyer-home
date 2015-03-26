@@ -8,8 +8,6 @@ Everything in this project was put together by Jared Meyer. Free to use componen
 
 * http://jmeyeronline.com/
 
-Start Bootstrap is based on the [Bootstrap](http://getbootstrap.com/) framework created by [Mark Otto](https://twitter.com/mdo) and [Jacob Thorton](https://twitter.com/fat).
-
 ## Copyright
 
 Copyright 2015 Jared Meyer
