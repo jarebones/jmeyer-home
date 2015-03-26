@@ -1,0 +1,82 @@
+#footerChecks{
+	float:left;
+	width:25%;
+	text-align:left;
+	visibility:visible;
+}
+
+#footerCopyright{
+	float:left;
+	width:50%;
+	text-align: center;
+}
+
+#footerToTop{
+	float:left;
+	width:25%;
+	text-align:right;
+	visibility:visible;
+}
+
+#feedbackSubmit{
+    margin: 0 auto;
+}
+
+.navbar, .nav{
+	visibility:hidden;
+}
+
+.preload{
+	display:none !important;
+}
+
+.content-section {
+    padding:100px;
+    height:100vh;
+    width:100%;
+}
+
+.work-section {
+    width: 100%;
+    padding: none;
+}
+
+footer {
+    padding: 10px 0;
+    height: 7vh;
+}
+
+#contactSection{
+    display: table;
+    width: 100%;
+    height: 93vh;
+    padding-top: 100px;
+    text-align: center;
+    color: #fff;
+    background: url(../img/background_contact.png) no-repeat bottom center scroll;
+    background-color: #000;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+@media(max-width:767px) {
+    #footerChecks{
+		visibility:hidden;
+	}
+
+	#footerToTop{
+		visibility:hidden;
+	}
+	#footerCopyright{
+		width:100%;
+	}
+}
+
+#workPortfolio{
+	display:none;
+	padding-top: 50px;
+	height:100vh;
+	width:100%;
+}
