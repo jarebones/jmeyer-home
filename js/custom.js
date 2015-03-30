@@ -220,3 +220,7 @@ $(window).scroll(function() {
 
    } 
 });
+
+function showPopup(id){
+    $("#"+id).bPopup();
+}

@@ -140,49 +140,103 @@
                 <div id="filter">
                   <button class="all active">All</button>
                   <button class="photo">Photography</button>
-                  <button class="graphic">Graphic Design</button>
+                  <button class="design">Design</button>
                   <button class="app">Apps &amp; Websites</button>
                   <button class="video">Videography</button>
                   <button>Music &amp; Audio</button>
                 </div>
 
+                <div id="pop-snowman" class="popup">
+                    <img class="img-responsive" src="img/snowman.jpg"/>
+                </div>
+
+                <div id="pop-mountain" class="popup">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/WleaMchj-E0?rel=0&amp;showinfo=0&autoplay=0" allowfullscreen></iframe>
+                </div>
+
+                <div id="pop-omelette" class="popup">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/XsWMsazi10s?rel=0&amp;showinfo=0&autoplay=0" allowfullscreen></iframe>
+                </div>
+
+                <div id="pop-hpplus" class="popup text-center">
+                    <img class="img-responsive" src="img/hpplus.jpg"/><br />
+                    <span>A homework planner app prototype designed for Android. Although incomplete and buggy with many features missing, the .apk file can downloaded <a href="#">here</a>.</span>
+                </div>
+
                 <div id="posts">
-                  <div class="post photo"><img src="1.jpg"/>
+                  <div class="post design"><img src="img/snowman.jpg"/>
                     <div class="post-content">
-                      <h2>Title 1</h2>
-                      <p>Description 1</p>
-                      <a href="#">View more</a> </div>
+                      <h2>Snowman</h2>
+                      <p>3D snowman assignment</p>
+                      <a href="javascript:showPopup('pop-snowman');">View more</a> </div>
                   </div>
-                  <div class="post graphic"><img src="2.jpg"/>
+                  <div class="post app"><img src="img/hpplus.jpg"/>
                     <div class="post-content">
-                      <h2>Title 2</h2>
-                      <p>Description 2</p>>
-                      <a href="#">View more</a> </div>
+                      <h2>Homework Planner Plus</h2>
+                      <p>Homework planner concept</p>
+                      <a href="javascript:showPopup('pop-hpplus');">View more</a> </div>
                   </div>
-                  <div class="post photo"><img src="3.jpg"/>
+                  <div class="post video"><img src="img/sunset.png"/>
                     <div class="post-content">
-                      <h2>Title 3</h2>
-                      <p>Description 3</p>
-                      <a href="#">View more</a> </div>
+                     <h2>Mountain</h2>
+                      <p>School Video Project</p>
+                      <a href="javascript:showPopup('pop-mountain');">View more</a> </div>
                   </div>
-                  <div class="post video"><img src="4.jpg"/>
+                  <div class="post video"><img src="img/omelette.jpg"/>
                     <div class="post-content">
-                     <h2>Title 4</h2>
-                      <p>Description 4</p>
-                      <a href="#">View more</a> </div>
+                      <h2>Omelette</h2>
+                      <p>How to cook an omelette</p>
+                      <a href="javascript:showPopup('pop-omelette');">View more</a> </div>
                   </div>
-                  <div class="post video"><img src="5.jpg"/>
+                  <div class="post app"><img src="img/supershine.png"/>
                     <div class="post-content">
-                      <h2>Title 5</h2>
-                      <p>Description 5</p>
-                      <a href="#">View more</a> </div>
+                      <h2>Supershine Travel</h2>
+                      <p>Jamaica vacations travel website concept</p>
+                      <a href="http://jmeyeronline.com/supershine" target="_blank">View more</a> </div>
                   </div>
-                  <div class="post app"><img src="6.jpg"/>
+                  <div class="post"><img src="img/black_holder.png"/>
                     <div class="post-content">
-                      <h2>Title 6</h2>
-                      <p>Description 6</p>
-                      <a href="#">View more</a> </div>
+                      <h2>Coming Soon</h2>
+                      <p>Coming Soon</p>
+                      <a href="#workSection">View more</a> </div>
                   </div>
+                  <div class="post"><img src="img/black_holder.png"/>
+                    <div class="post-content">
+                      <h2>Coming Soon</h2>
+                      <p>Coming Soon</p>
+                      <a href="#workSection">View more</a> </div>
+                  </div>
+                  <div class="post"><img src="img/black_holder.png"/>
+                    <div class="post-content">
+                      <h2>Coming Soon</h2>
+                      <p>Coming Soon</p>
+                      <a href="#workSection">View more</a> </div>
+                  </div>
+                  <div class="post"><img src="img/black_holder.png"/>
+                    <div class="post-content">
+                      <h2>Coming Soon</h2>
+                      <p>Coming Soon</p>
+                      <a href="#workSection">View more</a> </div>
+                  </div>
+                  <div class="post"><img src="img/black_holder.png"/>
+                    <div class="post-content">
+                     <h2>Coming Soon</h2>
+                      <p>Coming Soon</p>
+                      <a href="#workSection">View more</a> </div>
+                  </div>
+                  <div class="post"><img src="img/black_holder.png"/>
+                    <div class="post-content">
+                      <h2>Coming Soon</h2>
+                      <p>Coming Soon</p>
+                      <a href="#workSection">View more</a> </div>
+                  </div>
+                  <div class="post"><img src="img/black_holder.png"/>
+                    <div class="post-content">
+                      <h2>Coming Soon</h2>
+                      <p>Coming Soon</p>
+                      <a href="#workSection">View more</a> </div>
+                  </div>
+
                 </div>
 
             </div>
@@ -337,6 +391,7 @@
     <script src="assets/vender/intl-tel-input/js/intlTelInput.min.js"></script>
     <script src="assets/js/contact-form.js"></script>
     <script src="js/jquery.viewport.js" type="text/javascript"></script>
+    <script src="js/jquery.bpopup.min.js" type="text/javascript"></script>
     <script src="js/custom.js"></script>
 
 </body>
