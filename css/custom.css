@@ -79,6 +79,15 @@ footer {
 	#footerCopyright{
 		width:100%;
 	}
+    #aboutSection{
+        height:1000px;
+    }
+}
+
+@media(max-height:999px) {
+    #aboutSection{
+        height:1000px;
+    }
 }
 
 #workPortfolio{
@@ -116,4 +125,11 @@ footer {
     left: 0;
     width: 100%;
     height: 100%;
+}
+
+#aboutSection {
+    padding:20% 0;
+}
+#aboutContainer {
+    padding:15% 0;
 }
